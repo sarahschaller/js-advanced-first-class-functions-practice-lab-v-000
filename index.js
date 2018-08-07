@@ -8,6 +8,7 @@ const logDriversByHometown = function(drivers, hometown) {
   drivers.forEach(function(driver) {
     if (driver.hometown === hometown) {
       console.log(driver.name);
+    }
     });
   };
 };
